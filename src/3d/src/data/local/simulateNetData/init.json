@@ -1,0 +1,17 @@
+[
+  {
+    "pnId": "001-1",
+    "pnName": "p1",
+    "subId": 1,
+    "type": "physical",
+    "area": "",
+    "level": -1,
+    "locationX": 0,
+    "locationY": 0,
+    "locationZ": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "scale": 1
+  }
+]

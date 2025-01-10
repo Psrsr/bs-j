@@ -1,0 +1,252 @@
+[
+  {
+    "serviceInformation": {
+      "service": {
+        "serviceType": "chainService",
+        "bandwidth": "2000000",
+        "description": null,
+        "serviceId": "chainService_0",
+        "serviceName": "新业务3",
+        "status": null
+      }
+    },
+    "mapping": {
+      "node": {
+        "virtualNode": ["201_v", "301_v"],
+        "physicalNode": ["201", "301"]
+      },
+      "link": {
+        "virtualLink": [
+          {
+            "id": "201_v_301_v_chainService_0",
+            "node1": {
+              "id": "201_v",
+              "port": null
+            },
+            "node2": {
+              "id": "301_v",
+              "port": null
+            }
+          }
+        ],
+        "physicalLink": [
+          {
+            "id": null,
+            "node1": {
+              "id": "terminal201-8",
+              "port": null,
+              "type": "terminal"
+            },
+            "node2": {
+              "id": "201",
+              "port": "201-8",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link201-111",
+            "node1": {
+              "id": "201",
+              "port": "201-1",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "111",
+              "port": "111-2",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link21-111",
+            "node1": {
+              "id": "111",
+              "port": "111-3",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "21",
+              "port": "21-6",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link21-31",
+            "node1": {
+              "id": "21",
+              "port": "21-15",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "31",
+              "port": "31-1",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link31-133",
+            "node1": {
+              "id": "31",
+              "port": "31-7",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "133",
+              "port": "133-3",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link301-133",
+            "node1": {
+              "id": "133",
+              "port": "133-2",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "301",
+              "port": "301-1",
+              "type": "physical"
+            }
+          },
+          {
+            "id": null,
+            "node1": {
+              "id": "301",
+              "port": "301-9",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "terminal301-9",
+              "port": null,
+              "type": "terminal"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "serviceInformation": {
+      "service": {
+        "serviceType": "chainService",
+        "bandwidth": "2000000",
+        "description": null,
+        "serviceId": "chainService_1",
+        "serviceName": "新业务1",
+        "status": null
+      }
+    },
+    "mapping": {
+      "node": {
+        "virtualNode": ["341_v", "351_v", "41_v"],
+        "physicalNode": ["341", "351", "41"]
+      },
+      "link": {
+        "virtualLink": [
+          {
+            "id": "41_v_351_v_chainService_1",
+            "node1": {
+              "id": "41_v",
+              "port": null
+            },
+            "node2": {
+              "id": "351_v",
+              "port": null
+            }
+          },
+          {
+            "id": "341_v_41_v_chainService_1",
+            "node1": {
+              "id": "341_v",
+              "port": null
+            },
+            "node2": {
+              "id": "41_v",
+              "port": null
+            }
+          }
+        ],
+        "physicalLink": [
+          {
+            "id": null,
+            "node1": {
+              "id": "terminal341-8",
+              "port": null,
+              "type": "terminal"
+            },
+            "node2": {
+              "id": "341",
+              "port": "341-8",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link341-143",
+            "node1": {
+              "id": "341",
+              "port": "341-1",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "143",
+              "port": "143-2",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link41-143",
+            "node1": {
+              "id": "143",
+              "port": "143-3",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "41",
+              "port": "41-3",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link41-145",
+            "node1": {
+              "id": "41",
+              "port": "41-4",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "145",
+              "port": "145-3",
+              "type": "physical"
+            }
+          },
+          {
+            "id": "link351-145",
+            "node1": {
+              "id": "145",
+              "port": "145-2",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "351",
+              "port": "351-1",
+              "type": "physical"
+            }
+          },
+          {
+            "id": null,
+            "node1": {
+              "id": "351",
+              "port": "351-9",
+              "type": "physical"
+            },
+            "node2": {
+              "id": "terminal351-9",
+              "port": null,
+              "type": "terminal"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

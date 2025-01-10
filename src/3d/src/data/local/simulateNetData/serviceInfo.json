@@ -1,0 +1,196 @@
+[
+  {
+    "serviceId": "1001",
+    "serviceName": "Flexe网络业务1",
+    "sourceNodeId": "8",
+    "sourcePortId": "8-1",
+    "targetNodeId": "17",
+    "targetPortId": "17-1",
+    "channelId": "channel-1001",
+    "channelTable": [
+      {
+        "connectionId": "link8-1",
+        "linkType": "link",
+        "nodeId1": "8",
+        "portId1": "8-1",
+        "nodeId2": "1",
+        "portId2": "1-1"
+      },
+      {
+        "connectionId": "link1-12",
+        "linkType": "groupLink",
+        "nodeId1": "1",
+        "portId1": "1-1",
+        "nodeId2": "12",
+        "portId2": "12-1"
+      },
+      {
+        "connectionId": "link12-16",
+        "linkType": "link",
+        "nodeId1": "12",
+        "portId1": "12-2",
+        "nodeId2": "16",
+        "portId2": "16-1"
+      },
+      {
+        "connectionId": "link16-17",
+        "linkType": "link",
+        "nodeId1": "16",
+        "portId1": "16-2",
+        "nodeId2": "17",
+        "portId2": "17-1"
+      }
+    ]
+  },
+  {
+    "serviceId": "2001",
+    "serviceName": "Flexe网络业务2",
+    "sourceNodeId": "8",
+    "sourcePortId": "8-1",
+    "targetNodeId": "14",
+    "targetPortId": "14-1",
+    "channelId": "channel-2001",
+    "channelTable": [
+      {
+        "connectionId": "link8-6",
+        "linkType": "link",
+        "nodeId1": "8",
+        "portId1": "8-1",
+        "nodeId2": "6",
+        "portId2": "6-1"
+      },
+      {
+        "connectionId": "link6-14",
+        "linkType": "link",
+        "nodeId1": "6",
+        "portId1": "6-2",
+        "nodeId2": "14",
+        "portId2": "14-1"
+      }
+    ]
+  },
+  {
+    "serviceId": "3001",
+    "serviceName": "Flexe网络业务3",
+    "sourceNodeId": "9",
+    "sourcePortId": "9-1",
+    "targetNodeId": "7",
+    "targetPortId": "7-1",
+    "channelId": "channel-3001",
+    "channelTable": [
+      {
+        "connectionId": "link9-13",
+        "linkType": "link",
+        "nodeId1": "9",
+        "portId1": "9-1",
+        "nodeId2": "13",
+        "portId2": "13-1"
+      },
+      {
+        "connectionId": "link13-7",
+        "linkType": "link",
+        "nodeId1": "13",
+        "portId1": "13-1",
+        "nodeId2": "7",
+        "portId2": "7-1"
+      }
+    ]
+  },
+  {
+    "serviceId": "4001",
+    "serviceName": "Flexe网络业务4",
+    "sourceNodeId": "2",
+    "sourcePortId": "2-1",
+    "targetNodeId": "14",
+    "targetPortId": "14-1",
+    "channelId": "channel-4001",
+    "channelTable": [
+      {
+        "connectionId": "link2-10",
+        "linkType": "link",
+        "nodeId1": "2",
+        "portId1": "2-1",
+        "nodeId2": "10",
+        "portId2": "10-1"
+      },
+      {
+        "connectionId": "link10-15",
+        "linkType": "link",
+        "nodeId1": "10",
+        "portId1": "10-1",
+        "nodeId2": "15",
+        "portId2": "15-1"
+      },
+      {
+        "connectionId": "link15-14",
+        "linkType": "link",
+        "nodeId1": "15",
+        "portId1": "15-1",
+        "nodeId2": "14",
+        "portId2": "14-1"
+      }
+    ]
+  },
+  {
+    "serviceId": "5001",
+    "serviceName": "Flexe网络业务5",
+    "sourceNodeId": "10",
+    "sourcePortId": "10-1",
+    "targetNodeId": "8",
+    "targetPortId": "8-1",
+    "channelId": "channel-5001",
+    "channelTable": [
+      {
+        "connectionId": "link10-5",
+        "linkType": "link",
+        "nodeId1": "10",
+        "portId1": "10-1",
+        "nodeId2": "5",
+        "portId2": "5-1"
+      },
+      {
+        "connectionId": "link5-8",
+        "linkType": "link",
+        "nodeId1": "5",
+        "portId1": "5-1",
+        "nodeId2": "8",
+        "portId2": "8-1"
+      }
+    ]
+  },
+  {
+    "serviceId": "6001",
+    "serviceName": "Flexe网络业务6",
+    "sourceNodeId": "18",
+    "sourcePortId": "18-1",
+    "targetNodeId": "11",
+    "targetPortId": "11-1",
+    "channelId": "channel-6001",
+    "channelTable": [
+      {
+        "connectionId": "link18-13",
+        "linkType": "link",
+        "nodeId1": "18",
+        "portId1": "18-1",
+        "nodeId2": "13",
+        "portId2": "13-1"
+      },
+      {
+        "connectionId": "link13-3",
+        "linkType": "link",
+        "nodeId1": "13",
+        "portId1": "13-1",
+        "nodeId2": "3",
+        "portId2": "3-1"
+      },
+      {
+        "connectionId": "link3-11",
+        "linkType": "link",
+        "nodeId1": "3",
+        "portId1": "3-1",
+        "nodeId2": "11",
+        "portId2": "11-1"
+      }
+    ]
+  }
+]

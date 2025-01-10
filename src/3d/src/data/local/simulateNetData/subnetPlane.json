@@ -1,0 +1,92 @@
+[
+  {
+    "subnetId": "1",
+    "subName": "TP-1",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 300, 130, 0, 6.283, false],
+    "locationX": 0,
+    "locationY": -179,
+    "locationZ": -400
+  },
+  {
+    "subnetId": "2",
+    "subName": "TP-2",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 120, 120, 0, 6.283, false],
+    "locationX": -450,
+    "locationY": -179,
+    "locationZ": -80
+  },
+  {
+    "subnetId": "3",
+    "subName": "TP-3",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 270, 170, 0, 6.283, false],
+    "locationX": -60,
+    "locationY": -179,
+    "locationZ": -60
+  },
+  {
+    "subnetId": "4",
+    "subName": "TP-4",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 170, 170, 0, 6.283, false],
+    "locationX": 385,
+    "locationY": -179,
+    "locationZ": -80
+  },
+  {
+    "subnetId": "5",
+    "subName": "TP-5",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 130, 130, 0, 6.283, false],
+    "locationX": -475,
+    "locationY": -179,
+    "locationZ": 320
+  },
+  {
+    "subnetId": "9",
+    "subName": "TP-9",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 90, 120, 0, 6.283, false],
+    "locationX": -245,
+    "locationY": -179,
+    "locationZ": 340
+  },
+  {
+    "subnetId": "6",
+    "subName": "TP-6",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 100, 140, 0, 6.283, false],
+    "locationX": -30,
+    "locationY": -179,
+    "locationZ": 325
+  },
+  {
+    "subnetId": "10",
+    "subName": "TP-10",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 60, 120, 0, 6.283, false],
+    "locationX": 130,
+    "locationY": -179,
+    "locationZ": 325
+  },
+  {
+    "subnetId": "7",
+    "subName": "TP-7",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 100, 130, 0, 6.283, false],
+    "locationX": 300,
+    "locationY": -179,
+    "locationZ": 325
+  },
+  {
+    "subnetId": "8",
+    "subName": "TP-8",
+    "type": "Ellipse",
+    "geoSet": [0, 0, 100, 130, 0, 6.283, false],
+    "locationX": 500,
+    "locationY": -179,
+    "locationZ": 325
+  }
+]

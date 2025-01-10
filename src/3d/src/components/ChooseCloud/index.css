@@ -1,0 +1,10 @@
+.choose-cloud {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    padding-left: 15px;
+}
+.choose-cloud> .select {
+    border: false;
+}

@@ -1,0 +1,19 @@
+.suspension-frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: aliceblue !important;
+    font-size: 1px;
+}
+
+.suspension-frame > .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color: aliceblue;
+}
+.suspension-frame > .ant-collapse > .ant-collapse-item > .ant-collapse-content {
+    color: aliceblue;
+}
+
+.frame-text {
+    white-space: pre-wrap;
+}

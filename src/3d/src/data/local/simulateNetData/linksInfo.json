@@ -1,0 +1,207 @@
+[
+  {
+    "connectionId": "link27-26",
+    "nodeId1": "27",
+    "nodeId2": "26"
+  },
+  {
+    "connectionId": "link27-15",
+    "nodeId1": "27",
+    "nodeId2": "15"
+  },
+  {
+    "connectionId": "link15-20",
+    "nodeId1": "15",
+    "nodeId2": "20"
+  },
+  {
+    "connectionId": "link26-4",
+    "nodeId1": "26",
+    "nodeId2": "4"
+  },
+  {
+    "connectionId": "link20-4",
+    "nodeId1": "20",
+    "nodeId2": "4"
+  },
+  {
+    "connectionId": "link26-20",
+    "nodeId1": "26",
+    "nodeId2": "20"
+  },
+  {
+    "connectionId": "link20-14",
+    "nodeId1": "20",
+    "nodeId2": "14"
+  },
+  {
+    "connectionId": "link20-2",
+    "nodeId1": "20",
+    "nodeId2": "2"
+  },
+  {
+    "connectionId": "link14-1",
+    "nodeId1": "14",
+    "nodeId2": "1"
+  },
+  {
+    "connectionId": "link14-10",
+    "nodeId1": "14",
+    "nodeId2": "10"
+  },
+  {
+    "connectionId": "link2-10",
+    "nodeId1": "2",
+    "nodeId2": "10"
+  },
+  {
+    "connectionId": "link2-18",
+    "nodeId1": "2",
+    "nodeId2": "18"
+  },
+  {
+    "connectionId": "link10-18",
+    "nodeId1": "10",
+    "nodeId2": "18"
+  },
+  {
+    "connectionId": "link18-11",
+    "nodeId1": "18",
+    "nodeId2": "11"
+  },
+  {
+    "connectionId": "link18-23",
+    "nodeId1": "18",
+    "nodeId2": "23"
+  },
+  {
+    "connectionId": "link23-22",
+    "nodeId1": "23",
+    "nodeId2": "22"
+  },
+  {
+    "connectionId": "link22-7",
+    "nodeId1": "22",
+    "nodeId2": "7"
+  },
+  {
+    "connectionId": "link11-6",
+    "nodeId1": "11",
+    "nodeId2": "6"
+  },
+  {
+    "connectionId": "link7-12",
+    "nodeId1": "7",
+    "nodeId2": "12"
+  },
+  {
+    "connectionId": "link7-12",
+    "nodeId1": "7",
+    "nodeId2": "12"
+  },
+  {
+    "connectionId": "link1-12",
+    "nodeId1": "1",
+    "nodeId2": "12"
+  },
+  {
+    "connectionId": "link12-6",
+    "nodeId1": "12",
+    "nodeId2": "6"
+  },
+  {
+    "connectionId": "link12-19",
+    "nodeId1": "12",
+    "nodeId2": "9"
+  },
+  {
+    "connectionId": "link19-13",
+    "nodeId1": "19",
+    "nodeId2": "13"
+  },
+  {
+    "connectionId": "link13-24",
+    "nodeId1": "13",
+    "nodeId2": "24"
+  },
+  {
+    "connectionId": "link13-25",
+    "nodeId1": "13",
+    "nodeId2": "25"
+  },
+  {
+    "connectionId": "link12-19",
+    "nodeId1": "12",
+    "nodeId2": "19"
+  },
+  {
+    "connectionId": "link13-7",
+    "nodeId1": "13",
+    "nodeId2": "7"
+  },
+  {
+    "connectionId": "link1-8",
+    "nodeId1": "1",
+    "nodeId2": "8"
+  },
+  {
+    "connectionId": "link12-16",
+    "nodeId1": "12",
+    "nodeId2": "16"
+  },
+  {
+    "connectionId": "link12-3",
+    "nodeId1": "12",
+    "nodeId2": "3"
+  },
+  {
+    "connectionId": "link16-30",
+    "nodeId1": "16",
+    "nodeId2": "30"
+  },
+  {
+    "connectionId": "link16-21",
+    "nodeId1": "16",
+    "nodeId2": "21"
+  },
+  {
+    "connectionId": "link21-17",
+    "nodeId1": "21",
+    "nodeId2": "17"
+  },
+  {
+    "connectionId": "link17-28",
+    "nodeId1": "17",
+    "nodeId2": "28"
+  },
+  {
+    "connectionId": "link17-29",
+    "nodeId1": "17",
+    "nodeId2": "29"
+  },
+  {
+    "connectionId": "link3-5",
+    "nodeId1": "3",
+    "nodeId2": "5"
+  },
+  {
+    "connectionId": "link3-21",
+    "nodeId1": "3",
+    "nodeId2": "21"
+  },
+  {
+    "connectionId": "link30-21",
+    "nodeId1": "30",
+    "nodeId2": "21"
+  },
+  {
+    "connectionId": "link20-9",
+    "nodeId1": "20",
+    "nodeId2": "9"
+  },
+  {
+    "connectionId": "link8-14",
+    "nodeId1": "8",
+    "nodeId2": "14"
+  }
+]

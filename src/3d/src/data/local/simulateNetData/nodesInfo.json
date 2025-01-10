@@ -1,0 +1,164 @@
+[
+  {
+    "nodeId": "1",
+    "nodeName": "Flexe设备-1",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 0,
+    "locationZ": 0,
+    "locationY": 0
+  },
+  {
+    "nodeId": "2",
+    "nodeName": "Flexe设备-2",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -200,
+    "locationZ": 0,
+    "locationY": 0
+  },
+  {
+    "nodeId": "3",
+    "nodeName": "Flexe设备-3",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 350,
+    "locationZ": 0,
+    "locationY": 0
+  },
+  {
+    "nodeId": "4",
+    "nodeName": "Flexe设备-4",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -400,
+    "locationZ": 0,
+    "locationY": 0
+  },
+  {
+    "nodeId": "5",
+    "nodeName": "Flexe设备-5",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 0,
+    "locationZ": -200,
+    "locationY": 0
+  },
+  {
+    "nodeId": "6",
+    "nodeName": "Flexe设备-6",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 0,
+    "locationZ": -400,
+    "locationY": 0
+  },
+  {
+    "nodeId": "7",
+    "nodeName": "Flexe设备-7",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 0,
+    "locationZ": 400,
+    "locationY": 0
+  },
+  {
+    "nodeId": "8",
+    "nodeName": "Flexe设备-8",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 280,
+    "locationZ": -300,
+    "locationY": 0
+  },
+  {
+    "nodeId": "9",
+    "nodeName": "Flexe设备-9",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 450,
+    "locationZ": 350,
+    "locationY": 0
+  },
+  {
+    "nodeId": "10",
+    "nodeName": "Flexe设备-10",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -250,
+    "locationZ": -200,
+    "locationY": 0
+  },
+  {
+    "nodeId": "11",
+    "nodeName": "Flexe设备-11",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 500,
+    "locationZ": -200,
+    "locationY": 0
+  },
+  {
+    "nodeId": "12",
+    "nodeName": "Flexe设备-12",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -260,
+    "locationZ": 200,
+    "locationY": 0
+  },
+  {
+    "nodeId": "13",
+    "nodeName": "Flexe设备-13",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 250,
+    "locationZ": 220,
+    "locationY": 0
+  },
+  {
+    "nodeId": "14",
+    "nodeName": "Flexe设备-14",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -380,
+    "locationZ": -480,
+    "locationY": 0
+  },
+  {
+    "nodeId": "15",
+    "nodeName": "Flexe设备-15",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -450,
+    "locationZ": -300,
+    "locationY": 0
+  },
+  {
+    "nodeId": "16",
+    "nodeName": "Flexe设备-16",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -450,
+    "locationZ": 370,
+    "locationY": 0
+  },
+  {
+    "nodeId": "17",
+    "nodeName": "Flexe设备-17",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": -350,
+    "locationZ": 520,
+    "locationY": 0
+  },
+  {
+    "nodeId": "18",
+    "nodeName": "Flexe设备-18",
+    "level": "-1",
+    "nodeType": "generalswitch",
+    "locationX": 160,
+    "locationZ": 460,
+    "locationY": 0
+  }
+]
