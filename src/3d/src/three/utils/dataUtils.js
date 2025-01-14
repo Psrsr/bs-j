@@ -147,7 +147,7 @@ function change_linksTSN(links) {
   }
   return linksCopy;
 }
-function change_linksAlgo(links,nodes,res) {
+function change_linksAlgo(links, nodes, res) {
   let linksCopy = deepClone(links);
   let nodesCopy = deepClone(nodes);
 
@@ -174,7 +174,7 @@ function change_linksAlgo(links,nodes,res) {
   // }
   return linksCopy;
 }
-function change_nodesAlgo(nodes,res,init,type) {
+function change_nodesAlgo(nodes, res, init, type) {
 
   let nodesCopy = deepClone(nodes);
   let lev = -1;
@@ -189,33 +189,35 @@ function change_nodesAlgo(nodes,res,init,type) {
     nodesCopy[k].location_y = newY; //这里改成按照节点层数修改y坐标以匹配不同平面
     nodesCopy[k].level = lev;
 
-    nodesCopy[k].locationX = nodesCopy[k].locationX*(30)-3000;
-    nodesCopy[k].locationZ = nodesCopy[k].locationY*(30)-1200;
+    nodesCopy[k].locationX = nodesCopy[k].locationX * (30) - 3000;
+    nodesCopy[k].locationZ = nodesCopy[k].locationY * (30) - 1200;
     nodesCopy[k].locationY = nodesCopy[k].location_y;
     nodesCopy[k].nodeId = nodesCopy[k].id;
-    nodesCopy[k].nodeType='bridge';
+    if (nodesCopy[k].nodeType == '1') { nodesCopy[k].nodeType = 'bridge'; }
+    else { nodesCopy[k].nodeType = 'controller'; }
     nodesCopy[k].nodeName = nodesCopy[k].name;
   }
-  if(res!=undefined&&type=="service"){
-    res=res[0];
-    let X=res.length;
-    let nc= Math.floor(Math.max((nodes.length/10),1));   
-    let ns=nodes.length;
-    for(let i=1;i<=nc;i++){
+  if (res != undefined && type == "service") {
+    res = res[0];
+    let X = res.length;
+    let nc = Math.floor(Math.max((nodes.length / 10), 1));
+    let ns = nodes.length;
+    for (let i = 1; i <= nc; i++) {
       nodesCopy.push({
         location_y: -270,
-        level : 0,
-        locationX : res[2*i]*(600/180),
-        locationZ : res[2*i+1]*(600/180),
-        locationY : -270,
-        nodeId : nodes.length+1,
-        nodeType:'controller',
-        nodeName : 'Controller'+i,
-        id: nodes.length+1,
-        name: 'Controller'+i,
+        level: 0,
+        locationX: res[2 * i] * (600 / 180),
+        locationZ: res[2 * i + 1] * (600 / 180),
+        locationY: -270,
+        nodeId: nodes.length + 1,
+        nodeType: 'controller',
+        nodeName: 'Controller' + i,
+        id: nodes.length + 1,
+        name: 'Controller' + i,
       });
     }
   }
+  console.log("nodecopy: " ,nodesCopy);
   return nodesCopy;
 
 }
@@ -367,38 +369,38 @@ function change_links(links) {
   return new_links;
 }
 
-function change_services(services, nodes, changedNodes,topoInfo) {
+function change_services(services, nodes, changedNodes, topoInfo) {
   if (services === null || services === undefined) return [];
-  console.log("ss",services);
+  console.log("ss", services);
 
-  let res={
-    sourceNodePos: [0,0,0],
-    targetNodePos: [0,0,0],
-    stream_id:topoInfo.nid,
+  let res = {
+    sourceNodePos: [0, 0, 0],
+    targetNodePos: [0, 0, 0],
+    stream_id: topoInfo.nid,
     serviceChannelTable: [],
   };
-  let service=services[0];
-  let X=service.length;
-  let nc= Math.floor(Math.max((nodes.length/10),1));   
-  let ns=nodes.length;
-  console.log("X:",nc,ns,X);
-  for(let i=0;i<nc;i++){
-    let c=changedNodes[i+nodes.length];//控制器i,对应的连接关系位于X【 nc*2+ns+i*s : nc*2+ns+(i+1)*s 】
-    let s=[];
-    for(let j=0; j<ns; j++){
-      let ts= nc*2+ns+i*ns+j;
-      if(service[ts]==1){
-        s=changedNodes[j];//控制器i直连的 交换机节点
+  let service = services[0];
+  let X = service.length;
+  let nc = Math.floor(Math.max((nodes.length / 10), 1));
+  let ns = nodes.length;
+  console.log("X:", nc, ns, X);
+  for (let i = 0; i < nc; i++) {
+    let c = changedNodes[i + nodes.length];//控制器i,对应的连接关系位于X【 nc*2+ns+i*s : nc*2+ns+(i+1)*s 】
+    let s = [];
+    for (let j = 0; j < ns; j++) {
+      let ts = nc * 2 + ns + i * ns + j;
+      if (service[ts] == 1) {
+        s = changedNodes[j];//控制器i直连的 交换机节点
         // j=ns;//跳出
         //把cs链接加入
-        let node1Pos=[];let node2Pos=[];
-        node1Pos.push(c.locationX,c.locationY,c.locationZ);
-        node2Pos.push(s.locationX,s.locationY,s.locationZ);  
+        let node1Pos = []; let node2Pos = [];
+        node1Pos.push(c.locationX, c.locationY, c.locationZ);
+        node2Pos.push(s.locationX, s.locationY, s.locationZ);
         res.serviceChannelTable.push({
           linkSourceNodePos: node1Pos,
           linkTargetNodePos: node2Pos,
-          dst_node_id:i+nodes.length,
-          src_node_id:j,
+          dst_node_id: i + nodes.length,
+          src_node_id: j,
         })
       }
     }

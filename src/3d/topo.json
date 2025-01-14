@@ -1,0 +1,449 @@
+{
+    "nid": 2,
+    "name": "Testnet2",
+    "nodeCount": 0,
+    "linkCount": 41,
+    "links": [
+        {
+            "id": 1,
+            "connectionName": "link1-2",
+            "source": "1",
+            "target": "2"
+        },
+        {
+            "id": 1,
+            "connectionName": "link1-9",
+            "source": "1",
+            "target": "9"
+        },
+        {
+            "id": 2,
+            "connectionName": "link1-15",
+            "source": "1",
+            "target": "15"
+        },
+        {
+            "id": 3,
+            "connectionName": "link1-16",
+            "source": "1",
+            "target": "16"
+        },
+        {
+            "id": 4,
+            "connectionName": "link2-3",
+            "source": "2",
+            "target": "3"
+        },
+        {
+            "id": 5,
+            "connectionName": "link2-4",
+            "source": "2",
+            "target": "4"
+        },
+        {
+            "id": 6,
+            "connectionName": "link3-4",
+            "source": "3",
+            "target": "4"
+        },
+        {
+            "id": 7,
+            "connectionName": "link4-5",
+            "source": "4",
+            "target": "5"
+        },
+        {
+            "id": 8,
+            "connectionName": "link4-9",
+            "source": "4",
+            "target": "9"
+        },
+        {
+            "id": 9,
+            "connectionName": "link4-11",
+            "source": "4",
+            "target": "11"
+        },
+        {
+            "id": 11,
+            "connectionName": "link5-6",
+            "source": "5",
+            "target": "6"
+        },
+        {
+            "id": 11,
+            "connectionName": "link5-8",
+            "source": "5",
+            "target": "8"
+        },
+        {
+            "id": 12,
+            "connectionName": "link5-11",
+            "source": "5",
+            "target": "11"
+        },
+        {
+            "id": 13,
+            "connectionName": "link5-11",
+            "source": "5",
+            "target": "11"
+        },
+        {
+            "id": 14,
+            "connectionName": "link6-7",
+            "source": "6",
+            "target": "7"
+        },
+        {
+            "id": 15,
+            "connectionName": "link7-8",
+            "source": "7",
+            "target": "8"
+        },
+        {
+            "id": 16,
+            "connectionName": "link7-13",
+            "source": "7",
+            "target": "13"
+        },
+        {
+            "id": 17,
+            "connectionName": "link8-12",
+            "source": "8",
+            "target": "12"
+        },
+        {
+            "id": 18,
+            "connectionName": "link9-11",
+            "source": "9",
+            "target": "11"
+        },
+        {
+            "id": 19,
+            "connectionName": "link9-16",
+            "source": "9",
+            "target": "16"
+        },
+        {
+            "id": 21,
+            "connectionName": "link9-17",
+            "source": "9",
+            "target": "17"
+        },
+        {
+            "id": 21,
+            "connectionName": "link11-11",
+            "source": "11",
+            "target": "11"
+        },
+        {
+            "id": 22,
+            "connectionName": "link11-18",
+            "source": "11",
+            "target": "18"
+        },
+        {
+            "id": 23,
+            "connectionName": "link11-12",
+            "source": "11",
+            "target": "12"
+        },
+        {
+            "id": 0,
+            "connectionName": "link11-19",
+            "source": "11",
+            "target": "19"
+        },
+        {
+            "id": 25,
+            "connectionName": "link12-13",
+            "source": "12",
+            "target": "13"
+        },
+        {
+            "id": 26,
+            "connectionName": "link12-14",
+            "source": "12",
+            "target": "14"
+        },
+        {
+            "id": 27,
+            "connectionName": "link13-14",
+            "source": "13",
+            "target": "14"
+        },
+        {
+            "id": 28,
+            "connectionName": "link14-22",
+            "source": "14",
+            "target": "22"
+        },
+        {
+            "id": 29,
+            "connectionName": "link14-23",
+            "source": "14",
+            "target": "23"
+        },
+        {
+            "id": 31,
+            "connectionName": "link15-16",
+            "source": "15",
+            "target": "16"
+        },
+        {
+            "id": 31,
+            "connectionName": "link15-17",
+            "source": "15",
+            "target": "17"
+        },
+        {
+            "id": 32,
+            "connectionName": "link17-18",
+            "source": "17",
+            "target": "18"
+        },
+        {
+            "id": 33,
+            "connectionName": "link18-19",
+            "source": "18",
+            "target": "19"
+        },
+        {
+            "id": 34,
+            "connectionName": "link18-21",
+            "source": "18",
+            "target": "21"
+        },
+        {
+            "id": 35,
+            "connectionName": "link19-22",
+            "source": "19",
+            "target": "22"
+        },
+        {
+            "id": 36,
+            "connectionName": "link21-21",
+            "source": "21",
+            "target": "21"
+        },
+        {
+            "id": 37,
+            "connectionName": "link21-22",
+            "source": "21",
+            "target": "22"
+        },
+        {
+            "id": 38,
+            "connectionName": "link21-0",
+            "source": "21",
+            "target": "0"
+        },
+        {
+            "id": 39,
+            "connectionName": "link22-23",
+            "source": "22",
+            "target": "23"
+        },
+        {
+            "id": 41,
+            "connectionName": "link23-0",
+            "source": "23",
+            "target": "0"
+        }
+    ],
+    "info":"坐标范围: locationX:50-150   locationY:-10-90",
+    "nodes": [
+        {
+            "id": "1",
+            "name": "node1",
+            "nodeType": "1",
+            "locationX": 50,
+            "locationZ": 0,
+            "locationY": -10
+        },
+        {
+            "id": "2",
+            "name": "node2",
+            "nodeType": "1",
+            "locationX": 50,
+            "locationZ": 0,
+            "locationY": 0
+        },
+        {
+            "id": "3",
+            "name": "node3",
+            "nodeType": "2",
+            "locationX": 50,
+            "locationZ": 0,
+            "locationY": 15
+        },
+        {
+            "id": "4",
+            "name": "node4",
+            "nodeType": "1",
+            "locationX": 50,
+            "locationZ": 0,
+            "locationY": 40
+        },
+        {
+            "id": "5",
+            "name": "node5",
+            "nodeType": "2",
+            "locationX": 50,
+            "locationZ": 0,
+            "locationY": 75
+        },
+        {
+            "id": "6",
+            "name": "node6",
+            "nodeType": "1",
+            "locationX": 70,
+            "locationZ": 0,
+            "locationY": 0
+        },
+        {
+            "id": "7",
+            "name": "node7",
+            "nodeType": "2",
+            "locationX": 70,
+            "locationZ": 0,
+            "locationY": 15
+        },
+        {
+            "id": "8",
+            "name": "node8",
+            "nodeType": "1",
+            "locationX": 70,
+            "locationZ": 0,
+            "locationY": 30
+        },
+        {
+            "id": "9",
+            "name": "node9",
+            "nodeType": "2",
+            "locationX": 70,
+            "locationZ": 0,
+            "locationY": 50
+        },
+        {
+            "id": "11",
+            "name": "node11",
+            "nodeType": "1",
+            "locationX": 70,
+            "locationZ": 0,
+            "locationY": 80
+        },
+        {
+            "id": "11",
+            "name": "node11",
+            "nodeType": "1",
+            "locationX": 90,
+            "locationZ": 0,
+            "locationY": 0
+        },
+        {
+            "id": "12",
+            "name": "node12",
+            "nodeType": "2",
+            "locationX": 90,
+            "locationZ": 0,
+            "locationY": 15
+        },
+        {
+            "id": "13",
+            "name": "node13",
+            "nodeType": "1",
+            "locationX": 90,
+            "locationZ": 0,
+            "locationY": 45
+        },
+        {
+            "id": "14",
+            "name": "node14",
+            "nodeType": "1",
+            "locationX": 90,
+            "locationZ": 0,
+            "locationY": 60
+        },
+        {
+            "id": "15",
+            "name": "node15",
+            "nodeType": "2",
+            "locationX": 90,
+            "locationZ": 0,
+            "locationY": 75
+        },
+        {
+            "id": "16",
+            "name": "node16",
+            "nodeType": "1",
+            "locationX": 110,
+            "locationZ": 0,
+            "locationY": 0
+        },
+        {
+            "id": "17",
+            "name": "node17",
+            "nodeType": "1",
+            "locationX": 110,
+            "locationZ": 0,
+            "locationY": 15
+        },
+        {
+            "id": "18",
+            "name": "node18",
+            "nodeType": "2",
+            "locationX": 110,
+            "locationZ": 0,
+            "locationY": 40
+        },
+        {
+            "id": "19",
+            "name": "node19",
+            "nodeType": "1",
+            "locationX": 110,
+            "locationZ": 0,
+            "locationY": 60
+        },
+        {
+            "id": "21",
+            "name": "node21",
+            "nodeType": "1",
+            "locationX": 110,
+            "locationZ": 0,
+            "locationY": 80
+        },
+        {
+            "id": "21",
+            "name": "node21",
+            "nodeType": "1",
+            "locationX": 135,
+            "locationZ": 0,
+            "locationY": 0
+        },
+        {
+            "id": "22",
+            "name": "node22",
+            "nodeType": "2",
+            "locationX": 135,
+            "locationZ": 0,
+            "locationY": 20
+        },
+        {
+            "id": "23",
+            "name": "node23",
+            "nodeType": "1",
+            "locationX": 135,
+            "locationZ": 0,
+            "locationY": 40
+        },
+        {
+            "id": "0",
+            "name": "node0",
+            "nodeType": "2",
+            "locationX": 135,
+            "locationZ": 0,
+            "locationY": 75
+        }
+        ]
+}

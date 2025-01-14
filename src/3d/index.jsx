@@ -46,16 +46,15 @@ export default function Container3d(props) {
       nw_data["net_id"]=selectRow;
       setSelectId(selectRow);
     }
-    let topoInfo= await fetch_getTopoInfo(nw_data).then(init => {
-    console.log("topoInfo is ",init);
-    return init;
-    });
-    
+    // let topoInfo= await fetch_getTopoInfo(nw_data).then(init => {
+    // console.log("topoInfo is ",init);
+    // return init;
+    // });
+    const topoInfo=require("../3d/topo.json");
+    console.log("topoj is ",topoInfo);
+
     //规划数据
-    let AlgoResult= await fetch_getResultInfo(nw_data).then(res => {
-      console.log("AlgoResult is ",res);
-      return res;
-      });
+    let AlgoResult= undefined;
       
     //change
     let _nodes = [],_links = [],_alarms = [];

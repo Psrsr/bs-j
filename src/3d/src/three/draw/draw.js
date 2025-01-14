@@ -139,14 +139,14 @@ function drawSubNets(subNet) {
 }
 
 //画节点的贴图函数
-function drawGeneralSwitch(net_id) {
+function drawGeneralSwitch(net_id,nodeType) {
   let indexOfColor = 0;
-  switch (net_id) {
-    case 'net-1':
+  switch (nodeType) {
+    case 'bridge':
       indexOfColor = 0;
       break;
-    case 'net-2':
-      indexOfColor = 1;
+    case 'controller':
+      indexOfColor = 2;
       break;
     default:
       indexOfColor = 0;
@@ -197,7 +197,7 @@ function drawGeneralSwitch(net_id) {
 
 //在plane上画结点
 function drawNodes(nodes,dataModel) {
-   
+   console.log("drawnodes:111",nodes);
   const nodemodels = [];
   const spritemodels = [];
   if (nodes === null || nodes === [] || nodes === undefined) return {};
@@ -209,31 +209,13 @@ function drawNodes(nodes,dataModel) {
       scale: 20,
     });
     sprite.position.set(node.locationX, node.locationY + 40, node.locationZ);
-    if (node.nodeType == 'bridge') {
-      model = drawGeneralSwitch(node.net_id);
-      model.position.set(
-        node.locationX,
-        node.locationY + drawData.ORIGINAL_POS_OFFSET_CONE.y,
-        node.locationZ
-      );
-      model.name = 'bridge';
-    } else if (node.nodeType == 'controller') {
-      if(dataModel==undefined||dataModel==null||dataModel.length==0)continue;
-      // console.log(dataModel.scale);
-      dataModel.scale.set(15,15,9);
-      let copiedObject = dataModel.clone();
-      console.log("不空1",copiedObject);
-      model=copiedObject;
-      model.scale.set(15,15,9);
-      
-      model.position.set(
-        node.locationX,
-        node.locationY + drawData.ORIGINAL_POS_OFFSET_CONE.y -10,
-        node.locationZ+20
-      );
-      model.name = 'controller';
-      sprite.position.set(node.locationX, node.locationY + 40, node.locationZ);
-    }
+    model = drawGeneralSwitch(node.net_id,node.nodeType); 
+    model.position.set(
+      node.locationX,
+      node.locationY + drawData.ORIGINAL_POS_OFFSET_CONE.y,
+      node.locationZ
+    );
+    model.name = 'bridge';
     nodemodels.push(model);
     spritemodels.push(sprite);
     front_userData(model, 'id', node.nodeId);
